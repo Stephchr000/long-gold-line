@@ -1,5 +1,7 @@
-var x = document.getElementById("lowerP");
-var y = document.getElementById("bottomRight");
+
+var y = document.getElementById("bottomRight").textContent;
 function submitHP() {
-    alert("Hello")
+    var x = document.getElementById('lowerP');
+    x.textContent ="helllo world";
+    alert("Hello sds")
 }
