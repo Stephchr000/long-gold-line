@@ -1,16 +1,33 @@
-<form action="contact.php" method="post">
-        Your name
-    
-        <input type="text" name="cf_name">
-    
-        Your e-mail
-    
-        <input type="text" name="cf_email">
-    
-        Message
-    
-        <textarea name="cf_message">
-    
-        <input type="submit" value="Send">
-        <input type="reset" value="Clear">
-    </form>
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Contact Us</title>
+    </header>
+
+    <body>
+        
+        <form action = "form_process.php" method="post" name = "contact_form">
+            <p>First Name:
+                <input name="first_name" type="text" />
+            </p>
+
+            <p>Last Name:
+                <input name="last_name" type="text" />
+            </p>
+
+            <p>Email:
+                <input name="email" type="text" />
+            </p>
+
+            <p>Your Message:
+                <textarea name="message"> </textarea>&nbsp;
+            </p>
+            <p>
+                <input type = "submit" name = "submit" id ="submit" value = "Submit" />
+                <input type = "reset" name = "reset" id ="reset" value = "Reset" />
+            </p>
+
+        </form>
+
+
+    </body>
