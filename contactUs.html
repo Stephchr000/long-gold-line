@@ -2,32 +2,42 @@
 <html>
     <header>
         <title>Contact Us</title>
+        <link rel = "stylesheet"
+        type = "text/css"
+        href = "contactUs.css" />
     </header>
 
+    
+    
+         <div class="col-xs-6 mbox"> <h1 id="Contact Us" class="BD mbox">
+             <form action = "form_process.php" method="post" name = "contact_form">
+                <p>First Name:
+                    <input name="first_name" type="text" />
+                </p>
+    
+                <p>Last Name:
+                    <input name="last_name" type="text" />
+                </p>
+    
+                <p>Email:
+                    <input name="email" type="text" />
+                </p>
+    
+                <p>Your Message:
+                    <textarea name="message"> </textarea>&nbsp;
+                </p>
+                <p>
+                    <input type = "submit" name = "submit" id ="submit" value = "Submit" />
+                    <input type = "reset" name = "reset" id ="reset" value = "Reset" />
+                </p>
+    
+            </form>   </h1></div> 
+         
+         
+ </div>
+
     <body>
-        
-        <form action = "form_process.php" method="post" name = "contact_form">
-            <p>First Name:
-                <input name="first_name" type="text" />
-            </p>
-
-            <p>Last Name:
-                <input name="last_name" type="text" />
-            </p>
-
-            <p>Email:
-                <input name="email" type="text" />
-            </p>
-
-            <p>Your Message:
-                <textarea name="message"> </textarea>&nbsp;
-            </p>
-            <p>
-                <input type = "submit" name = "submit" id ="submit" value = "Submit" />
-                <input type = "reset" name = "reset" id ="reset" value = "Reset" />
-            </p>
-
-        </form>
+            <body id = "background">
 
 
     </body>
