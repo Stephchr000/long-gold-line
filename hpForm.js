@@ -1,12 +1,5 @@
-$( document ).ready(function() {
-  
-
-$("#submitB").click(function () {
-
-    
-  alert($("#S").text());
-  $("#S").text($("#bottomRight").val());
-});
-
-}); 
-
+var x = document.getElementById("lowerP");
+var y = document.getElementById("bottomRight");
+function submitHP() {
+    alert("Hello")
+}
