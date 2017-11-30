@@ -1,7 +1,8 @@
 $( document ).ready(function() {
   
+  
 
-$("#submitB").click(function () {
+("#submitB").click(function () {
 
     
   alert($("#S").text());
