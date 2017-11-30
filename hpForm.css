@@ -17,14 +17,15 @@
  
  }
  #T{
+     color: black;
      text-align: center;
-width:300px;
+     background-color: #DAA530;
+     border-color: transparent;
+width:340px;
+font-size: 24px;
    
  } 
- .mT{
-width: 100px;
-height: 100px;    
- }
+ 
  #H{
   font-size:24px;
   color:black;
@@ -38,6 +39,9 @@ height: 100px;
  }
  .tA{
      text-align:center;
+     padding-left:0px; 
+     padding-bottom: 10px;
+    
  }
  .tL{
      text-align:center;
@@ -98,7 +102,7 @@ height: 100px;
  }
  #bH{
      padding: 50px;
-     background-color:#2F4F4F;
+     
  }
  .SP{
      padding-bottom:12px;
@@ -106,6 +110,7 @@ height: 100px;
  .SMT{
      font-size: 12px;
      color:white;
+     background-color:#2F4F4F;
  }
  #lowerP{
      text-align:center;
@@ -116,7 +121,11 @@ height: 100px;
     
      padding-left:50px;
  }
-
+.article{
+    background-color: #DAA530;
+    color: black;
+    border-color: #DAA520;
+   
 
  
  

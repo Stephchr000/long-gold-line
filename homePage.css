@@ -91,7 +91,7 @@
  }
  #bH{
      padding: 50px;
-     background-color:#2F4F4F;
+    
  }
  .SP{
      padding-bottom:12px;
@@ -99,6 +99,7 @@
  .SMT{
      font-size: 12px;
      color:white;
+      background-color:#2F4F4F;
  }
  #lowerP{
      text-align:center;
