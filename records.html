@@ -30,12 +30,7 @@
      <div id="NB">
          <div class="row">
              
-             <!--<div class = "col-xs-1 PP"><link href=""><u>HOME</u></div>-->
-               <!--<div class = "col-xs-1 tL"><link href=""><u>FORUM</u></div> -->
-                <!--<div class = "col-xs-1 tL"><link href=""><u>SCHEDULE</u></div> -->
-                 <!--<div class = "col-xs-1 tL"><link href=""><u>ABOUT US</u></div> -->
-                  <!--<div class = "col-xs-2 tL"><link href=""><u>CONTACT US</u></div> -->
-                   <!--<div class = "col-xs-1 tL"><link href=""><u>STAFF</u></div> -->
+            
                     <div class = "col-xs-1 tL"><link href=""><u>LOG-IN</u></div>
                     <div class = "col-xs-2 tL"><link href=""><u>SIGN-UP</u></div>
                     
@@ -106,6 +101,82 @@
                   </div>
               </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="myModal" class="modal">
+            
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                
+                  <form action = "form_process.php" method="post" name = "contact_form">
+                     <p>First Name:
+                         <input name="first_name" type="text" />
+                     </p>
+          
+                     <p>Last Name:
+                         <input name="last_name" type="text" />
+                     </p>
+          
+                     <p>Email:
+                         <input name="email" type="text" />
+                     </p>
+          
+                     <p>Your Message:
+                         <textarea name="message"> </textarea>&nbsp;
+                     </p>
+                     <p>
+                         <input type = "submit" name = "submit" id ="submit" value = "Submit"/>
+                         <input type = "reset" name = "reset" id ="reset" value = "Reset" />
+                     </p>
+          
+                 </form>   </h1></div> 
+              
+              
+          </div>
+              </div>
+            
+            </div>
+          
+            <script>
+              // Get the modal
+              var modal = document.getElementById('myModal');
+              
+              // Get the button that opens the modal
+              var btn = document.getElementById("contactBtn");
+              
+              // Get the <span> element that closes the modal
+              var span = document.getElementsByClassName("close")[0];
+              
+              // When the user clicks the button, open the modal 
+              btn.onclick = function() {
+                  modal.style.display = "block";
+              }
+              
+              // When the user clicks on <span> (x), close the modal
+              span.onclick = function() {
+                  modal.style.display = "none";
+              }
+              
+              // When the user clicks anywhere outside of the modal, close it
+              window.onclick = function(event) {
+                  if (event.target == modal) {
+                      modal.style.display = "none";
+                  }
+              }
+              </script>
 
 </body>
 </html>
