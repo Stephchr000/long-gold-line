@@ -160,9 +160,81 @@
 
 
 #contactBtn{
-    background-color: rgb(223, 233, 224);
+    background-color: #2F4F4F;
     border: none;
-    color: black;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 11px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+}
+#homeBtn{
+    background-color: #2F4F4F;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 11px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+}
+#scheduleBtn{
+    background-color: #2F4F4F;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 11px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+}
+#forumBtn{
+    background-color: #2F4F4F;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 11px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+}
+#aboutBtn{
+    background-color: #2F4F4F;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 11px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+}
+#staffBtn{
+    background-color: #2F4F4F;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 11px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+}
+#recordsBtn{
+    background-color: #2F4F4F;
+    border: none;
+    color: white;
     /*padding: 15px 32px;*/
     text-align: center;
     text-decoration: none;
