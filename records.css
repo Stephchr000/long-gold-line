@@ -59,6 +59,68 @@ TL{
     cursor: pointer;
 }
 
+.rButton{
+  
+   padding-top: 100px;
+   padding-bottom:50px;
+   
+}
+.btn1{
+    padding-right:5px;
+    border-style: solid;
+    border-color:   black;
+    color:black;
+font-size: 24px;
+background-color: #DAA530;
+}
+.btn2{
+    padding-left: 5px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+background-color: #DAA530;
+font-size: 24px;
+    
+}
+.CL{
+    text-align: right;
+}
+.Dd{
+    padding-top: 10px;
+     padding-left: 0px;
+     padding-bottom: 50px;
+}
+.menu{
+    width: 430px;
+    font-size: 24px;
+    border-style: solid;
+    border-color: black;
+    color:black;
+    background-color:#DAA530;
+}
+.center{
+  text-align: center;
+  
+  
+}
+.left{
+    text-align: left;
+    
+}
+.cent{
+   
+    text-align: center;
+   font-size: 12px;
+}
+#fnt{
+    text-align: center;
+    font-size: 24px;
+}
+.sp{
+    padding-left:160px;
+}
+
+
 #NB{
     background-color: black;
     margin-top: 0px;
