@@ -112,12 +112,20 @@ font-size: 24px;
     text-align: center;
    font-size: 12px;
 }
+.cent2{
+   text-align: center;
+    font-size: 18px;
+
+}
 #fnt{
     text-align: center;
     font-size: 24px;
 }
 .sp{
     padding-left:160px;
+}
+.sp1{
+    padding-left: 135px;
 }
 
 
