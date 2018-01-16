@@ -86,15 +86,26 @@ font-size: 24px;
     text-align: right;
 }
 .Dd{
-    padding-top: 10px;
+    padding-top: 20px;
      padding-left: 0px;
      padding-bottom: 50px;
 }
 .menu{
+
     width: 430px;
     font-size: 24px;
     border-style: solid;
     border-color: black;
+    color:black;
+    background-color:#DAA530;
+}
+.menu1{
+    
+    font-size: 24px;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
     color:black;
     background-color:#DAA530;
 }
