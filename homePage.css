@@ -9,6 +9,10 @@
      font-size:12px;
      color: #DAA520;
  }
+ .row{
+     margin-right: 0px;
+     margin-left: 0px;
+ }
  #box{
      padding-bottom:0px;
      border-color: black;
