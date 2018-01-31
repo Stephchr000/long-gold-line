@@ -1,11 +1,13 @@
 
+var express = require('express');
 var mysql = require('mysql');
+var app = express();
 
 var connection = mysql.createConnection({
-    host: 'longgoldline.org',
-    user: 'root',
-    password: '',
-    database: 'LongGoldLineDB'
+    host: 'localhost',
+    user: 'mthudg_chris',
+    password: '441822000',
+    database: 'mthudg_LongGoldLine'
 });
 
 connection.connect(function(error) {
@@ -13,18 +15,20 @@ connection.connect(function(error) {
 if(!!error) {
     console.log('Error');
 } else{
-console.log('Connected');
+alert('Connected');
+
 }
 });
 app.get('/', function(req, resp){
 //about mysql
-connection.query("SELECT * FROM LongGoldLineDB", function(error,rows, field){
+ Connection.query("SELECT * FROM Athlete", function(error, rows, field){
 //call back
 if(!!error){
     console.log('Error in query');
 }else{
-console.log('Good Job Bro');
+console.log(rows);
 }
+return rows[0].givenName;
 });
 });
-app.listen(8080)
+app.listen(8080);
