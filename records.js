@@ -7,9 +7,13 @@
    
 function show(value) {
       alert(value);
-   if(vlaue === "ath"){
-      var x = document.getElementById("ath")
-}
+      var x;
+ x = document.getElementById(value);
+   /*if(vlaue = "ath"){
+     
+}else{
+    x = "";
+}*/
  if(x.style.display === "none"){
         x.style.display = "block";
     }else{
