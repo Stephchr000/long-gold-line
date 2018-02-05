@@ -23,7 +23,7 @@
         </a>
         <img src="kyle_mic.jpg" height="200" width="150"/>
         <img src="1997_Team.jpg" height="200" width="250"/>
-        <img src="centerGrove_2014.jpg" height="200" width="300"/>
+        <img src="centerGrove_2014.jpg" height="200" width="309"/>
         
         
 
@@ -33,9 +33,8 @@
          <div class="row">
              
             
-                    <div class = "col-xs-1 tL"><link href="" ><u>LOG-IN</u></div>
-                    <div class = "col-xs-2 tL"><link href=""><u>SIGN-UP</u></div>
-                    <div class = "col-xs-2 tL"><button onclick="myAlertFunction()"> xdxx</button></div>
+            <div class = "col-xs-1 tL"><button id="logBtn"><a href="logIn.html" style="color: white">LOG-IN</a></button></div>
+            <div class = "col-xs-2 tL"><button id="signBtn"><a href="" style="color: white">SIGN-UP</a></button></div>
                     
          </div>
      </div>
@@ -45,14 +44,20 @@
         <div class="col-xs-3 "><h3  class="menu1" onclick="show()">Top Ten By Grade</h3></div> 
         <div class="col-xs-5">
             <div class="Dd">
-                <form  method="post" action="php-form.php">
+                <!--<form  method="post" action="php-form.php">
                    <input name="cat" id="cat" type="text" value="hi" placeholder="Search">
         <input type="submit">
-                </form>
-              
-        <h2 id="ath" >This is an Athlete</h2>
+                </form>-->
+              <select class="menu" oninput="show(value)">
+                  <option></option>
+                  <option value="ath">Athlete</option>
+                  <option value="cch">Coach</option>
+              </select>
+        
         </div>
-        </div>
+        
+        </div> 
+       
         <div class="col-xs-3 "><h3 class="menu1">Top Ten Overall</h3></div>
         </div>
         </div>
@@ -123,11 +128,10 @@
                                 
         </div> 
         <div class="col-xs-5">
-            <div class="Dd">
-        
+            <div class="Dd center">
+        <h2 id="ath" >This is an Athlete</h2>
             </div>
         </div>
-
         <div class="col-xs-3 "><h3 id="fnt">Fastest Bois </h3>
             <div class="col-xs-2 sp1">
            <h3> <ol class="cent2" >
@@ -143,13 +147,21 @@
             <li>NAME10</li>
             </ol>
         </div>
+        </div>
+        
+
+
+
+
+
+      
+        
     </h3>
         </div>
     
         </div>
         </div>
         
-
 
 
 
@@ -171,8 +183,9 @@
                           </div>
                   
                   <div class ="row SP">
-                      <div class = "col-xs-3 "><button id = "scheduleBtn"><a href="schedule.html" style="color:white"> SCHEDULE</a></button></div>
-                      <div class = "col-xs-1 "><button id = "aboutBtn"><a href="" style="color:white">ABOUT US</a></button></div>
+                    <div class = "col-xs-3 "><button id = "scheduleBtn"><a href="schedule.html" style="color:white"> SCHEDULE</a></button></div>
+                    <div class = "col-xs-3 "><button id = "aboutBtn"><a href="" style="color:white">ABOUT US</a></button></div>
+                    <div class = "col-xs-3 "><button id = "galleryBtn"><a href="gallery.html" style="color:white"> GALLERY</a></button></div>
                      </div>
                      <div class ="row SP"> 
                           <div class = "col-xs-3 "><button id ="contactBtn">CONTACT US</button></div>
