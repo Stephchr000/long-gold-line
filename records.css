@@ -311,3 +311,6 @@ font-size: 24px;
     /*margin: 4px 2px;*/
     cursor: pointer;
 }
+.dis{
+    display: none;
+}

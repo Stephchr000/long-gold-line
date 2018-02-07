@@ -6,18 +6,19 @@
 
    
 function show(value) {
-      alert(value);
+    
       var x;
  x = document.getElementById(value);
-   /*if(vlaue = "ath"){
-     
-}else{
-    x = "";
-}*/
- if(x.style.display === "none"){
-        x.style.display = "block";
-    }else{
+if(value === "ath"){
+    document.getElementById("cch").style.display = "none";
+}
+if(value === "cch"){
+    document.getElementById("ath").style.display = "none";
+}
+if(x.style.display === "block"){
         x.style.display = "none";
+    }else{
+        x.style.display = "block";
     }
     };
         
