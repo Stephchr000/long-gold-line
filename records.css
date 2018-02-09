@@ -310,4 +310,11 @@ font-size: 24px;
     font-size: 11px;
     /*margin: 4px 2px;*/
     cursor: pointer;
+<<<<<<< HEAD
   }
+=======
+}
+.dis{
+    display: none;
+}
+>>>>>>> 0e1b68482a836824271315d85617b5cd28ecc588
