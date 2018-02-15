@@ -1,8 +1,10 @@
 #background{
     background-color: #DAA520;
+   
+    
     /* background-color:white;*/
  }
- #NB{
+ #top-navbar{
      background-color: black;
      margin-top: 0px;
      padding-left: 0px;
@@ -96,7 +98,7 @@
  
      padding-bottom:400px;
  }
- #bH{
+ #bottom-nav{
      padding: 50px;
     
  }
@@ -104,7 +106,7 @@
      padding-bottom:12px;
  }
  .SMT{
-     font-size: 12px;
+     font-size: 15px;
      color:white;
       background-color:black;
  }
@@ -172,7 +174,7 @@
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
@@ -184,7 +186,7 @@
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
@@ -196,7 +198,7 @@
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
@@ -208,7 +210,7 @@
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
@@ -220,7 +222,7 @@
     
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
@@ -232,7 +234,7 @@
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
@@ -244,7 +246,7 @@
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
@@ -256,7 +258,7 @@
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
@@ -268,7 +270,7 @@
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
@@ -280,7 +282,7 @@
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
   }
