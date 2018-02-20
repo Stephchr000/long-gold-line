@@ -7,6 +7,7 @@
 
 
 
+
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0; background-color: #DAA520}
 .mySlides {display: none}
@@ -75,10 +76,14 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
 
+
+
+
+#background{
+  background-color: #DAA520;
+  /* background-color:white;*/
+}
 #NB{
    background-color: black;
    margin-top: 0px;
@@ -160,6 +165,7 @@ margin-right:20px;
 .smbox{
    padding-left:5px;
    padding-right:5px;
+  
 }
 .PP{
    padding-left:100px;
@@ -182,7 +188,7 @@ margin-right:20px;
 .SMT{
    font-size: 12px;
    color:white;
-    background-color:#2F4F4F;
+    background-color:black;
 }
 #lowerP{
    text-align:center;
@@ -241,7 +247,7 @@ TL{
 
 
 #contactBtn{
-  background-color: #2F4F4F;
+  background-color: black;
   border: none;
   color: white;
   /*padding: 15px 32px;*/
@@ -253,7 +259,7 @@ TL{
   cursor: pointer;
 }
 #homeBtn{
-  background-color: #2F4F4F;
+  background-color: black;
   border: none;
   color: white;
   /*padding: 15px 32px;*/
@@ -265,7 +271,7 @@ TL{
   cursor: pointer;
 }
 #scheduleBtn{
-  background-color: #2F4F4F;
+  background-color: black;
   border: none;
   color: white;
   /*padding: 15px 32px;*/
@@ -277,7 +283,7 @@ TL{
   cursor: pointer;
 }
 #forumBtn{
-  background-color: #2F4F4F;
+  background-color: black;
   border: none;
   color: white;
   /*padding: 15px 32px;*/
@@ -289,11 +295,11 @@ TL{
   cursor: pointer;
 }
 #aboutBtn{
-  background-color: #2F4F4F;
+  background-color: black;
   border: none;
   color: white;
   /*padding: 15px 32px;*/
-  text-align: center;
+  
   text-decoration: none;
   /*display: inline-block;*/
   font-size: 11px;
@@ -301,7 +307,7 @@ TL{
   cursor: pointer;
 }
 #staffBtn{
-  background-color: #2F4F4F;
+  background-color: black;
   border: none;
   color: white;
   /*padding: 15px 32px;*/
@@ -313,7 +319,7 @@ TL{
   cursor: pointer;
 }
 #recordsBtn{
-  background-color: #2F4F4F;
+  background-color: black;
   border: none;
   color: white;
   /*padding: 15px 32px;*/
@@ -349,7 +355,7 @@ TL{
   cursor: pointer;
 }
 #galleryBtn{
-  background-color: #2F4F4F;
+  background-color: black;
   border: none;
   color: white;
   /*padding: 15px 32px;*/
@@ -360,5 +366,3 @@ TL{
   /*margin: 4px 2px;*/
   cursor: pointer;
 }
-
-

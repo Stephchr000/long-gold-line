@@ -3,6 +3,8 @@
 }
 #background{
     background-color: #DAA520;
+   
+    
     /* background-color:white;*/
  }
 img{
@@ -106,7 +108,7 @@ width: 14%;
  
      padding-bottom:400px;
  }
- #bH{
+ #bottom-nav{
      padding: 50px;
     
  }
@@ -114,9 +116,9 @@ width: 14%;
      padding-bottom:12px;
  }
  .SMT{
-     font-size: 12px;
+     font-size: 15px;
      color:white;
-      background-color:#2F4F4F;
+      background-color:black;
  }
  #lowerP{
      text-align:center;
@@ -175,90 +177,6 @@ width: 14%;
 
 
 #contactBtn{
-    background-color: #2F4F4F;
-    border: none;
-    color: white;
-    /*padding: 15px 32px;*/
-    text-align: center;
-    text-decoration: none;
-    /*display: inline-block;*/
-    font-size: 11px;
-    /*margin: 4px 2px;*/
-    cursor: pointer;
-}
-#homeBtn{
-    background-color: #2F4F4F;
-    border: none;
-    color: white;
-    /*padding: 15px 32px;*/
-    text-align: center;
-    text-decoration: none;
-    /*display: inline-block;*/
-    font-size: 11px;
-    /*margin: 4px 2px;*/
-    cursor: pointer;
-}
-#scheduleBtn{
-    background-color: #2F4F4F;
-    border: none;
-    color: white;
-    /*padding: 15px 32px;*/
-    text-align: center;
-    text-decoration: none;
-    /*display: inline-block;*/
-    font-size: 11px;
-    /*margin: 4px 2px;*/
-    cursor: pointer;
-}
-#forumBtn{
-    background-color: #2F4F4F;
-    border: none;
-    color: white;
-    /*padding: 15px 32px;*/
-    text-align: center;
-    text-decoration: none;
-    /*display: inline-block;*/
-    font-size: 11px;
-    /*margin: 4px 2px;*/
-    cursor: pointer;
-}
-#aboutBtn{
-    background-color: #2F4F4F;
-    border: none;
-    color: white;
-    /*padding: 15px 32px;*/
-    text-align: center;
-    text-decoration: none;
-    /*display: inline-block;*/
-    font-size: 11px;
-    /*margin: 4px 2px;*/
-    cursor: pointer;
-}
-#staffBtn{
-    background-color: #2F4F4F;
-    border: none;
-    color: white;
-    /*padding: 15px 32px;*/
-    text-align: center;
-    text-decoration: none;
-    /*display: inline-block;*/
-    font-size: 11px;
-    /*margin: 4px 2px;*/
-    cursor: pointer;
-}
-#recordsBtn{
-    background-color: #2F4F4F;
-    border: none;
-    color: white;
-    /*padding: 15px 32px;*/
-    text-align: center;
-    text-decoration: none;
-    /*display: inline-block;*/
-    font-size: 11px;
-    /*margin: 4px 2px;*/
-    cursor: pointer;
-}
-#logBtn{
     background-color: black;
     border: none;
     color: white;
@@ -266,11 +184,11 @@ width: 14%;
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
-}
-#signBtn{
+  }
+  #homeBtn{
     background-color: black;
     border: none;
     color: white;
@@ -278,19 +196,103 @@ width: 14%;
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
-}
-#galleryBtn{
-    background-color: #2F4F4F;
+  }
+  #scheduleBtn{
+    background-color: black;
     border: none;
     color: white;
     /*padding: 15px 32px;*/
     text-align: center;
     text-decoration: none;
     /*display: inline-block;*/
-    font-size: 11px;
+    font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
-}
+  }
+  #forumBtn{
+    background-color: black;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 15px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+  }
+  #aboutBtn{
+    background-color: black;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 15px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+  }
+  #staffBtn{
+    background-color: black;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 15px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+  }
+  #recordsBtn{
+    background-color: black;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 15px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+  }
+  #logBtn{
+    background-color: black;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 15px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+  }
+  #signBtn{
+    background-color: black;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 15px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+  }
+  #galleryBtn{
+    background-color: black;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 15px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+  }
