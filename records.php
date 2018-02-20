@@ -9,13 +9,29 @@
    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>   
    <script src=" http://requirejs.org/docs/release/2.2.0/minified/require.js"></script>
    <script type="text/javascript" src="records/records.js"></script>
+ 
   
 </header>
- 
 <body id="background">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div id="FA"><img height="200" src="images/2014_regional_win.jpg" width="14%" /> <img height="200" src="images/state_win.jpg" width="14%" /> <img height="200" src="images/shaneBrown_2014_sectional.jpg" width="14%" /> <a href="index.html"> <img align="middle" height="200" src="images/winged-w-v1.jpg" width="14%" /> </a> <img height="200" src="images/kyle_mic.jpg" width="14%" /> <img height="200" src="images/1997_Team.jpg" width="14%" /> <img height="200" src="images/centerGrove_2014.jpg"  /></div>
+
+    <div id="FA">
+        
+        <img src="images/2014_regional_win.jpg" height= "200" width="250"/>
+        <img src="images/state_win.jpg" height="200" width="200"/>
+        <img src="images/shaneBrown_2014_sectional.jpg" height="200" width="200"/>
+        <a href="index.html">
+        
+            <img src="images/winged-w-v1.jpg" height= "200" width="200" align="middle"/>
+        </a>
+        <img src="images/kyle_mic.jpg" height="200" width="150"/>
+        <img src="images/1997_Team.jpg" height="200" width="250"/>
+        <img src="images/centerGrove_2014.jpg" height="200" width="309"/>
+        
+        
+
+    </div>
+
      <div id="NB">
          <div class="row">
              
@@ -28,8 +44,8 @@
      
      <div class="center">
         <div class="row">
-        <div class="col-xs-3 rc"><h3  class="menu1" onclick="show()">Top Ten By Grade</h3></div> 
-        <div class="col-xs-5 rcc">
+        <div class="col-xs-3 "><h3  class="menu1" onclick="show()">Top Ten By Grade</h3></div> 
+        <div class="col-xs-5">
             <div class="Dd">
                 <!--<form  method="post" action="php-form.php">
                    <input name="cat" id="cat" type="text" value="hi" placeholder="Search">
@@ -45,13 +61,13 @@
         
         </div> 
        
-        <div class="col-xs-3 rc"><h3 class="menu1">Top Ten Overall</h3></div>
+        <div class="col-xs-3 "><h3 class="menu1">Top Ten Overall</h3></div>
         </div>
         </div>
         
         <div class="" id="">
         <div class="row">
-        <div class="pd col-xs-3 rc" >
+        <div class="pd col-xs-3 " >
             <div class="row">
                 <div class="fp col-xs-2 ">
         <h1 id="fnt">Freshman <ol class="cent" >
@@ -113,23 +129,35 @@
         </div>
         </div>
         </div> 
-        <div class="col-xs-5 rcc">
+        <div class="col-xs-5">
             <div class="Dd center">
         
-        <h2 id="ath" class="dis">  
+        <h2 id="ath" class="dis">
+
+        
+       <?php
+	$con = mysql_connect("198.57.247.178","mthudg_chris","441822000");
+if (!$con)
+  {
+  die('Could not connect: ' . mysql_error());
+  }
   
-<form action="q.php" method="post" target="frame">
-<div id="srch">
-Name: <input type="text" name="name" class="menu">
-<input type="submit" class="btn1">
-</div>
-</form>
-<iframe name="frame" class="IF" id="frame"></iframe>
-      </h2>
+mysql_select_db("mthudg_LongGoldLine", $con);
+
+$sql=mysql_query("SELECT * FROM Athlete");
+while($w=mysql_fetch_assoc($sql)){
+echo $w["givenName"];
+echo " ";
+echo $w["surname"];
+echo "<br>"; 
+}
+?>
+         
+        </h2>
         <h2 id="cch" class="dis" >This is a Coach</h2>
             </div>
         </div>
-        <div class="col-xs-3 rc"><h3 id="fnt">Fastest Bois </h3>
+        <div class="col-xs-3 "><h3 id="fnt">Fastest Bois </h3>
             <div class="col-xs-2 sp1">
            <h3> <ol class="cent2" >
             <li>NAME1</li>
@@ -176,7 +204,7 @@ Name: <input type="text" name="name" class="menu">
                                   <div class = "col-xs-3 "><button id = "homeBtn"><a href="index.html" style="color:white">HOME</a></button></div>
 
                                   <div class = "col-xs-3 "><button id = "forumBtn"><a href="gh.html" style="color:white">FORUM</a></button></div>
-                                  <div class = "col-xs-1 "><button id = "recordsBtn"><a href="db.php" style="color:white">RECORDS</a></button></div>
+                                  <div class = "col-xs-1 "><button id = "recordsBtn"><a href="records.html" style="color:white">RECORDS</a></button></div>
                           </div>
                   
                   <div class ="row SP">

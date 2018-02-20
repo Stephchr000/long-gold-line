@@ -1,7 +1,15 @@
+* {
+    box-sizing: border-box;
+}
 #bH{
     padding: 50px;
    
 }
+img{
+width: 14%;
+}
+.rc{width:25%; border: 1px solid red;}
+.rcc{width:50%;border: 1px solid red;}
 .SMT{
     font-size: 12px;
     color:white;
@@ -13,6 +21,9 @@
 #lowerP{
     text-align:center;
     font-size:18px;
+}
+#srch{
+font-size: 24px;
 }
 TL{
     text-align: right;
@@ -99,6 +110,16 @@ font-size: 24px;
     color:black;
     background-color:#DAA530;
 }
+.IF{
+
+    width: 600px;
+ font-size: 2em;
+    border-style: solid;
+    border-color: black;
+    color:black;
+    background-color:#DAA530;
+}
+
 .menu1{
     
     font-size: 24px;
@@ -310,4 +331,8 @@ font-size: 24px;
     font-size: 15px;
     /*margin: 4px 2px;*/
     cursor: pointer;
-  }
+}
+.dis{
+    display: none;
+    font-size: 12px;
+}
