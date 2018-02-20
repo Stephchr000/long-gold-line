@@ -1,7 +1,17 @@
+* {
+    box-sizing: border-box;
+}
 #background{
     background-color: #DAA520;
     /* background-color:white;*/
  }
+img{
+width: 14%;
+
+}
+.rc{width:33%; border: 1px solid red;}
+.rcc{width:50%;border: 1px solid red;}
+
  #NB{
      background-color: black;
      margin-top: 0px;

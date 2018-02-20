@@ -10,8 +10,10 @@
    <script src=" http://requirejs.org/docs/release/2.2.0/minified/require.js"></script>
    <script type="text/javascript" src="records.js"></script>
   <script type="text/javascript" src="database.js"></script>
+  <link type="text/php" src="db.php"/>
 </header>
 <body id="background">
+        
     <div id="FA">
         
         <img src="2014_regional_win.jpg" height= "200" width="250"/>
@@ -129,7 +131,14 @@
         </div> 
         <div class="col-xs-5">
             <div class="Dd center">
-        <h2 id="ath" class="dis" >This is an Athlete</h2>
+        <h2 id="ath" class="dis" >
+           <form onforminput=""></form>
+                <form  method="post" action="php-form.php">
+                        <input name="cat" id="cat" type="text" value="hi" placeholder="Search">
+             <input type="submit">
+            
+           </form>
+            This is an Athlete</h2>
         <h2 id="cch" class="dis" >This is a Coach</h2>
             </div>
         </div>
