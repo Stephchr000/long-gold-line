@@ -132,7 +132,11 @@
         <div class="col-xs-5">
             <div class="Dd center">
         
+<<<<<<< HEAD
         <h2 id="ath" class="d">
+=======
+        <h2 id="ath" class="dis">
+>>>>>>> e05d72bcaa6dba4c53b79e0c537b5a29e9d3cdc6
 
         
        <?php
