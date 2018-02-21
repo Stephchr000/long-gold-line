@@ -5,27 +5,28 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 <link rel = "stylesheet"
    type = "text/css"
-   href = "records.css" />
+   href = "records/records.css" />
    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>   
    <script src=" http://requirejs.org/docs/release/2.2.0/minified/require.js"></script>
-   <script type="text/javascript" src="records.js"></script>
-  <script type="text/javascript" src="database.js"></script>
-  <link type="text/php" src="db.php"/>
+   <script type="text/javascript" src="records/records.js"></script>
+ 
+  
 </header>
 <body id="background">
-        
+
+
     <div id="FA">
         
-        <img src="2014_regional_win.jpg" height= "200" width="250"/>
-        <img src="state_win.jpg" height="200" width="200"/>
-        <img src="shaneBrown_2014_sectional.jpg" height="200" width="200"/>
-        <a href="homePage.html">
+        <img src="images/2014_regional_win.jpg" height= "200" width="250"/>
+        <img src="images/state_win.jpg" height="200" width="200"/>
+        <img src="images/shaneBrown_2014_sectional.jpg" height="200" width="200"/>
+        <a href="index.html">
         
-            <img src="winged-w-v1.jpg" height= "200" width="200" align="middle"/>
+            <img src="images/winged-w-v1.jpg" height= "200" width="200" align="middle"/>
         </a>
-        <img src="kyle_mic.jpg" height="200" width="150"/>
-        <img src="1997_Team.jpg" height="200" width="250"/>
-        <img src="centerGrove_2014.jpg" height="200" width="309"/>
+        <img src="images/kyle_mic.jpg" height="200" width="150"/>
+        <img src="images/1997_Team.jpg" height="200" width="250"/>
+        <img src="images/centerGrove_2014.jpg" height="200" width="309"/>
         
         
 
@@ -35,18 +36,8 @@
          <div class="row">
              
             
-            <div class = "col-xs-1 tL"><button id = "homeBtn"><a href="homePage.html" style="color:white">HOME</a></button></div>
-            <div class = "col-xs-1 tL"><button id = "forumBtn"><a href="gh.html" style="color:white">FORUM</a></button></div>
-            <div class = "col-xs-1 tL"><button id = "recordsBtn"><a href="records.html" style="color:white">RECORDS</a></button></div>
-            <div class = "col-xs-1 tL"><button id = "scheduleBtn"><a href="schedule.html" style="color:white"> SCHEDULE</a></button></div>
-            <div class = "col-xs-1 tL"><button id = "aboutBtn"><a href="" style="color:white">ABOUT US</a></button></div>
-            <div class = "col-xs-1 tL"><button id = "galleryBtn"><a href="gallery.html" style="color:white"> GALLERY</a></button></div>
-            <div class = "col-xs-1 tL"><button id ="contactBtn">CONTACT US</button></div>
-            <div class = "col-xs-1 tL"><button id = "staffBtn"><a href="" style="color:white">STAFF</a></button></div> 
-            <div class = "col-xs-1 tL"><button id = "staffBtn"><a href="" style="color:white"></a></button></div> 
-            <div class = "col-xs-1 tL"><button id = "staffBtn"><a href="" style="color:white"></a></button></div>         
             <div class = "col-xs-1 tL"><button id="logBtn"><a href="logIn.html" style="color: white">LOG-IN</a></button></div>
-            <div class = "col-xs-1 tL"><button id="signBtn"><a href="" style="color: white">SIGN-UP</a></button></div>
+            <div class = "col-xs-2 tL"><button id="signBtn"><a href="" style="color: white">SIGN-UP</a></button></div>
                     
          </div>
      </div>
@@ -61,7 +52,7 @@
         <input type="submit">
                 </form>-->
               <select class="menu" oninput="show(value)">
-                  <option></option>
+                  <option value="bb"></option>
                   <option value="ath">Athlete</option>
                   <option value="cch">Coach</option>
               </select>
@@ -137,18 +128,32 @@
                 </ol></h1>
         </div>
         </div>
-                                
         </div> 
         <div class="col-xs-5">
             <div class="Dd center">
-        <h2 id="ath" class="dis" >
-           <form onforminput=""></form>
-                <form  method="post" action="php-form.php">
-                        <input name="cat" id="cat" type="text" value="hi" placeholder="Search">
-             <input type="submit">
-            
-           </form>
-            This is an Athlete</h2>
+        
+        <h2 id="ath" class="d">
+
+        
+       <?php
+	$con = mysql_connect("198.57.247.178","mthudg_chris","441822000");
+if (!$con)
+  {
+  die('Could not connect: ' . mysql_error());
+  }
+  
+mysql_select_db("mthudg_LongGoldLine", $con);
+
+$sql=mysql_query("SELECT * FROM Athlete");
+while($w=mysql_fetch_assoc($sql)){
+echo $w["givenName"];
+echo " ";
+echo $w["surname"];
+echo "<br>"; 
+}
+?>
+         
+        </h2>
         <h2 id="cch" class="dis" >This is a Coach</h2>
             </div>
         </div>
@@ -192,15 +197,11 @@
 
 
      <div>
-        <div id="bh" class ="SMT"style="
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;">
+        <div id="bh" class ="SMT">
            <div class="row">
                   <div class = "col-xs-3 ">
                           <div class ="row SP">
-                                  <div class = "col-xs-3 "><button id = "homeBtn"><a href="homePage.html" style="color:white">HOME</a></button></div>
+                                  <div class = "col-xs-3 "><button id = "homeBtn"><a href="index.html" style="color:white">HOME</a></button></div>
 
                                   <div class = "col-xs-3 "><button id = "forumBtn"><a href="gh.html" style="color:white">FORUM</a></button></div>
                                   <div class = "col-xs-1 "><button id = "recordsBtn"><a href="records.html" style="color:white">RECORDS</a></button></div>
@@ -213,7 +214,7 @@
                      </div>
                      <div class ="row SP"> 
                           <div class = "col-xs-3 "><button id ="contactBtn">CONTACT US</button></div>
-                          <!--a href="contactUs.html">CONTACT US</a-->
+                          <!--a href="contactUs.html">CONTACT US</a--><!---->
                            <div class = "col-xs-1 "><button id = "staffBtn"><a href="" style="color:white">STAFF</a></button></div>
                            
                        </div>
@@ -263,6 +264,7 @@
         <div id="myModal" class="modal">
             
               <!-- Modal content -->
+              
               <div class="modal-content">
                 <span class="close">&times;</span>
                 
