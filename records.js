@@ -1,9 +1,9 @@
- function myAlertFunction() {
-        alert("You selected some text!");
-    }
-    
-    
-
+onload = function()
+{
+ document.frame.document.body.style.fontsize = "32px";
+}
+   
+   
    
 function show(value) {
     
@@ -11,10 +11,14 @@ function show(value) {
  x = document.getElementById(value);
 if(value === "ath"){
     document.getElementById("cch").style.display = "none";
-}
-if(value === "cch"){
+}else if(value === "cch"){
     document.getElementById("ath").style.display = "none";
+  
+}else{
+document.getElementById("ath").style.display = "none";
+document.getElementById("cch").style.display = "none";
 }
+
 if(x.style.display === "block"){
         x.style.display = "none";
     }else{
